@@ -5,19 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home|Page</title>
+    <style>
+        form{
+            border:2px solid black;
+            width: 50%;
+            padding:10px;
+            border-radius: 20px;
+        }
+    </style>
 </head>
 <body><center>
     
         <h1>Hello Every One</h1><br>
         <h2>This page Will predict the price of VEHICLE</h2>
         <p>Trust me you got a good price for your Car</p>
+       
     <form action="result" method="POST">
         Year  :  <input type="text" name="year"><p>Year should be in between 2017 to 1996.</p><br>
         Fuel    :  <input type="text" name="fuel"><p>For Diesel Enter 1 Or For Petrol enter 2.</p><br>
         Seller Type :  <input type="text" name="seller_type"><p>For Individual Enter 1 Or For Dealer enter 2 or for Trustmark Dealer enter 3.</p><br>
         Transmission :  <input type="text" name="transmission"><p>For Manual enter 1 of For Automatic enter 2. </p><br>
         Owner :  <input type="text" name="owner"><p>For First Owner Enter 1 Or For Second Owner enter 2 or For Third Owner enter 3.</p><br>
-    <input type="submit">
+    <input type="submit" >
     </form>
 </center>
 
